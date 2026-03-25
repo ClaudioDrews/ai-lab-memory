@@ -1,0 +1,14 @@
+# ai-rag venv — dependências pinnadas
+# Gerado em: 2026-03-21
+# Python: 3.12.3
+# Pinnar versões protege contra breaking changes silenciosos (ex: qdrant-client 1.17.1 removeu .search())
+
+qdrant-client==1.17.1
+python-frontmatter==1.1.0
+langchain-text-splitters==1.1.1
+httpx==0.28.1
+tiktoken==0.12.0
+typer==0.24.1
+rich==14.3.3
+
+# Sem novas dependências para BM25 — implementado com hashlib + collections (stdlib)

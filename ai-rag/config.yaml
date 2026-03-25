@@ -1,0 +1,35 @@
+embedding:
+  model_path: models/embedding/qwen3-embedding-0.6b-q8_0.gguf
+  server_url: http://localhost:8081
+  dimension: 1024
+  batch_size: 6
+  ngl: 99
+  port: 8081
+
+chunking:
+  markdown:
+    size: 800
+    overlap: 150
+  code:
+    size: 500
+    overlap: 50
+  chat:
+    turns: 4
+    overlap_turns: 1
+  log:
+    size: 500
+    overlap: 100
+  text:
+    size: 600
+    overlap: 120
+
+qdrant:
+  host: localhost
+  port: 6333
+  collection: ai_memory
+
+paths:
+  models_embedding: models/embedding
+  models_gguf: models/gguf
+  chunks: data/chunks
+  logs: logs

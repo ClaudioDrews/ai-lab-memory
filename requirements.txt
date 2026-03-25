@@ -1,0 +1,8 @@
+# AI Lab Memory - Root Requirements
+# This file installs dependencies for both ai-mem and ai-rag
+
+# Install ai-mem dependencies
+-r ai-mem/requirements.txt
+
+# Install ai-rag dependencies
+-r ai-rag/requirements.txt

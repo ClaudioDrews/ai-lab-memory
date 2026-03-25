@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+.venv
+
+# Secrets e configuração local
+.env
+*.env
+secrets.env
+config.local.yaml
+*.local.*
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# OpenClaw específico (não incluir)
+workspace/
+MEMORY.md
+memory/
+
+# Modelos GGUF (muito grandes)
+*.gguf
+models/
+
+# Dados de vetores
+data/idf.json
+data/index_hashes.json
+data/chunks/
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Temporários
+tmp/
+temp/
+*.tmp
